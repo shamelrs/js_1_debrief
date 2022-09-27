@@ -11,7 +11,29 @@ console.log('Your JS file is linked!');
 // Reference Codecademy lessons: Introduction- Arithmetic Opertaors, Conditional Statements lessons 3, 4, 5,and 9
 
 //Write your code for FizzBuzz below this line:
+let myNumber = 2
+typeof myNumber
+if (myNumber !== number {
+    console.log ( ' This is not a number '); 
+}
+    
+  if (myNumber % 3 === 0
+    ) {
+    console.log('Fizz');
+  }
 
+  if (myNumber % 3 === 0
+    ) {
+    console.log('Buzz');
+  }
+
+  if (myNumber % 3 === 0 && myNumber % 5 === 0) {
+    console.log('FizzBuzz');
+  }
+
+  if (myNumber) {
+    console.log(myNumber);
+  }
 
 
 
@@ -29,6 +51,23 @@ console.log('Your JS file is linked!');
 
 //Write your code for the E-Commerce item list below this line:
 
+let itemPrice = 'shoes';
+ 
+switch (itemPrice) {
+  case 'shoes':
+    console.log('Shoes are $50');
+    break;
+  case 'jeans':
+    console.log('Jeans are $25');
+    break;
+  case 'hat':
+    console.log('Hats are $12')
+  case 'socks':
+    console.log('Socks are $2')
+  default:
+    console.log('Invalid item');
+    break;
+}
 
 
 
@@ -36,3 +75,9 @@ console.log('Your JS file is linked!');
 // Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 
 //Write your code below this line:
+
+function getRandomInt(min, max) {
+    min = Math.ceil(50);
+    max = Math.floor(100);
+    return Math.floor(Math.random() * (100 - 50) + 50); // The maximum is exclusive and the minimum is inclusive
+  }
