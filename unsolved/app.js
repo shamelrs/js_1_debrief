@@ -11,10 +11,10 @@ console.log('Your JS file is linked!');
 // Reference Codecademy lessons: Introduction- Arithmetic Opertaors, Conditional Statements lessons 3, 4, 5,and 9
 
 //Write your code for FizzBuzz below this line:
-let myNumber = 2
+let myNumber
 typeof myNumber
-if (myNumber !== number {
-    console.log ( ' This is not a number '); 
+if (isNaN (myNumber))  {
+    console.log ('This is not a number'); 
 }
     
   if (myNumber % 3 === 0
@@ -31,7 +31,7 @@ if (myNumber !== number {
     console.log('FizzBuzz');
   }
 
-  if (myNumber) {
+  else {
     console.log(myNumber);
   }
 
